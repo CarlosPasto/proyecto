@@ -1,0 +1,30 @@
+.header-container {
+    text-align: center;
+
+    nav {
+        ul {
+            list-style: none;
+
+            li {
+                margin-top: 6%;
+
+                a {
+                    font-size: 32px;
+                    color: #000000;
+                    text-decoration: none;
+                    font-weight: bolder;
+                    opacity: calc(75%);
+                    background-color: #ffffff;
+                    border-radius: 25px;
+
+                }
+            }
+        }
+    }
+}
+
+.header-container li:hover {
+    transform: scale(2);
+    transition-property: all;
+    transition-duration: 3s;
+}

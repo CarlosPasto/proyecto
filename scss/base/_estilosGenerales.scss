@@ -3,3 +3,26 @@
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+/*Mobile*/
+@media only screen and (max-width:450px) {
+    .header-container li{
+        padding-top: 20%;
+    }
+body {
+    background-image: url(./imagenes/nuevavidafondo.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}  
+
+}
+
+/*Tablet*/
+@media only screen and (min-width:451px) and (max-width:960px) {
+    .header-container li{
+        padding-top: 13%;
+    }
+    body {
+        background-image: url(./imagenes/nuevavidafondo.jpg);
+    }
+}

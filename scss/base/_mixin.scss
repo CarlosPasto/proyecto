@@ -1,0 +1,11 @@
+@mixin display-flex ($display) {
+    display: $display;
+}
+
+.parrafo-visitenos{
+    @include display-flex(block)
+}
+
+.icono-yt{
+    @include display-flex(flex)
+}

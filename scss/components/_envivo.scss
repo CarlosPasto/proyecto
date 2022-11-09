@@ -10,10 +10,10 @@
 
 .youtube{
     p{background-color: #000000;
-        color: rgb(255, 255, 255);
+        color: nth($colores,1);
         display: block;
         text-align: center;
-        font-size: 16px;
+        font-size: nth($font-size,5);
         margin-left: 40%;
         margin-right: 40%;
         margin-bottom: 1%;

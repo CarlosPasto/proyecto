@@ -10,8 +10,8 @@
                 margin-top: 6%;
 
                 a {
-                    font-size: 32px;
-                    color: #000000;
+                    font-size: nth($font-size,1);
+                    color: nth($colores,2);
                     text-decoration: none;
                     font-weight: bolder;
                     opacity: calc(75%);

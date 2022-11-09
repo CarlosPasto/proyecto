@@ -14,9 +14,9 @@
 }
 
 .img-min p{
-    font-size: 20px;
+    font-size: nth($font-size,3);
     background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    color: nth($colores,1);
     opacity: calc(75%);
     margin-top: 10%;
     box-shadow: -32px 35px 46px 7px rgba(0,0,0,0.75);
